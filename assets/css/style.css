@@ -1,58 +1,82 @@
+/* <! Header styles> */
+
 .header {
     background-color: #ffffff;
-    border-style: solid;
+    border-bottom: solid;
     border-color: #cccccc;
     margin: 0;
-}
-
-#container {
-    width: 960px;
-    border-style: solid;
-    border-color: #dddddd
-
-}
-
-#about-me {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-#pic {
-    float: left;
-    margin: 2%;
-    clear: right;
-}
-
-p {
-    float: left;
+    padding: 25px;
 }
 
 .your-name {
     background-color: #4aaaa5;
-    padding: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
+    font-size: 24pt;
+    text-align: center;
+    padding:25px;    
     width: 220px;
     margin-left: 15%;
     float: left;
-}
-
-.about {
-    float: right;
-    position: absolute;
-    right: 25%
-}
-
-.portfolio {
-    float: right;
-    position: absolute;
-    right: 30%;
+    overflow: auto;
 }
 
 .contact {
     float: right;
     position: absolute;
     right: 35%;
+    margin-top: 3%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
 }
+
+.portfolio {
+    float: right;
+    position: absolute;
+    right: 30%;
+    margin-top: 3%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+}
+
+.about {
+    float: right;
+    position: absolute;
+    right: 25%;
+    margin-top: 3%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+}
+
+
+/* <! Start of styling for body> */
+
+#container {
+    height: 499px;
+    width: 958px;
+
+}
+
+#about-me {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 2%;
+
+}
+
+#pic {
+    float: left;
+    margin: 2%;
+    overflow: auto;
+}
+
+p {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+    margin-top: 2%;
+}
+
+
 
 html, body {
     height: 100%;
@@ -61,6 +85,9 @@ html, body {
     display: flex;
     flex-direction: column;
   }
+ 
+ /* <! sticky footer> */
+
   .content {
     flex: 1 0 auto;
   }
