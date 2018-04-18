@@ -57,6 +57,9 @@
     margin-top: 3%;
     border-style: solid;
     border-color: #dddddd;
+    background-color: white;
+    overflow: auto;
+    z-index: 1;
 }
 
 #about-me {
@@ -82,15 +85,14 @@
 }
 
 html, body {
-    height: 100%;
-    background-image: url(polka-dots.png);
-    
-  }
+    height: 100%
+}
 
   body {
     display: flex;
     flex-direction: column;
-    background-image: url("polka-dots.png");
+    background-image: url("../images/polka-dots.png");
+    
   }
  
  /* <! sticky footer> */
