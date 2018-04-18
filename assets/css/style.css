@@ -51,18 +51,29 @@
 
 /* <! Start of styling for body> */
 
-#container {
-    height: 499px;
-    width: 958px;
-
+.container {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 3%;
+    border-style: solid;
+    border-color: #dddddd;
 }
 
 #about-me {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin: 2%;
+    border-bottom: solid;
+    border-color: #cccccc;
+   
 
 }
+#text {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777777;
+    width: 100%;
+}
+
 
 #pic {
     float: left;
@@ -70,20 +81,16 @@
     overflow: auto;
 }
 
-p {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #777777;
-    margin-top: 2%;
-}
-
-
-
 html, body {
     height: 100%;
+    background-image: url(polka-dots.png);
+    
   }
+
   body {
     display: flex;
     flex-direction: column;
+    background-image: url("polka-dots.png");
   }
  
  /* <! sticky footer> */
