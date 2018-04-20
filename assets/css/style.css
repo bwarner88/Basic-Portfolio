@@ -5,7 +5,7 @@
     border-bottom: solid;
     border-color: #cccccc;
     margin: 0;
-    padding: 25px;
+    height: 69px;
 }
 
 .your-name {
@@ -14,18 +14,20 @@
     color: #ffffff;
     font-size: 24pt;
     text-align: center;
-    padding:25px;    
-    width: 220px;
+    height: 62px;
+    width: 220px; 
     margin-left: 15%;
     float: left;
     overflow: auto;
+    padding-top: 9px;
 }
 
 .contact {
     float: right;
     position: absolute;
-    right: 35%;
-    margin-top: 3%;
+    right: 37%;
+    width: 50px;
+    margin-top: 2%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #777777;
 }
@@ -34,7 +36,7 @@
     float: right;
     position: absolute;
     right: 30%;
-    margin-top: 3%;
+    margin-top: 2%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #777777;
 }
@@ -43,7 +45,7 @@
     float: right;
     position: absolute;
     right: 25%;
-    margin-top: 3%;
+    margin-top: 2%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #777777;
 }
@@ -53,7 +55,8 @@
 
 .container {
     margin: 0 auto;
-    width: 50%;
+    width: 796px;
+    height: 397px;
     margin-top: 3%;
     border-style: solid;
     border-color: #dddddd;
@@ -62,7 +65,7 @@
     z-index: 1;
 }
 
-#about-me {
+.title {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin: 2%;
@@ -71,10 +74,14 @@
    
 
 }
-#text {
+.text {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #777777;
     width: 100%;
+}
+
+.text-bar {
+    width: 553px;
 }
 
 
@@ -107,4 +114,7 @@ html, body {
     color: #ffffff;
     padding: 15px;
     clear: auto;
+    border-top: solid;
+    border-width: 10px;
+    border-color: #4aaaa5;
   }
