@@ -56,7 +56,37 @@
 .container {
     margin: 0 auto;
     width: 796px;
-    height: 397px;
+    /* height: 397px; */
+    margin-top: 3%;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: white;
+    overflow: auto;
+    z-index: 1;
+}
+
+
+#pic {
+    float: left;
+    margin: 2%;
+    overflow: auto;
+}
+
+html, body {
+    height: 100%
+}
+
+  body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/polka-dots.png");
+    
+  }
+
+.container2 {
+    margin: 0 auto;
+    width: 796px;
+    height: 500px;
     margin-top: 3%;
     border-style: solid;
     border-color: #dddddd;
@@ -77,30 +107,144 @@
 .text {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #777777;
-    width: 100%;
-}
-
-.text-bar {
-    width: 553px;
-}
-
-
-#pic {
-    float: left;
     margin: 2%;
     overflow: auto;
-}
-
-html, body {
-    height: 100%
-}
-
-  body {
-    display: flex;
-    flex-direction: column;
-    background-image: url("../images/polka-dots.png");
     
-  }
+}
+
+/* <!CSS for Contact page> */
+.text-bar {
+    width: 400px;
+    margin: 2%;
+    padding-bottom: 4px;
+    /* float: left; */
+    clear: right;
+}
+
+.text-bar:focus {
+    background-color: yellow;
+}
+
+.text-bar2 {
+    width: 400px;
+    margin: 2%;
+}
+
+.text-bar2:focus {
+    background-color: yellow;
+}
+
+.message-bar {
+    width: 400px;
+    height: 50px;
+    margin: 2%;
+}
+
+.message-bar:focus {
+    background-color: yellow;
+}
+
+.submit{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width:71px;
+    height: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 2%;
+}
+
+/* <! Styling for Portfolio Page> */
+
+.img-cont-1 {
+    background-image: url("../images/ants.jpg");
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+#hangman {
+    color: white;
+    background-color: #4aaaa5;
+    position: absolute;
+    margin-top: 75px;
+    width: 200px;
+    text-align: center;
+}
+
+.img-cont-2 {
+    background-image: url("../images/bread.jpg");
+    height: 200px;
+    width: 200px;
+    float: left;
+    /* overflow: auto; */
+
+}
+
+#rpg-game {
+    color: white;
+    background-color: #4aaaa5;
+    position: absolute;
+    margin-top: 75px;
+    width: 200px;
+    text-align: center;
+
+}
+
+.img-cont-3 {
+    background-image: url("../images/city.jpg");
+    height: 200px;
+    width: 200px;
+    float: left;
+
+}
+
+#trivia {
+    color: white;
+    background-color: #4aaaa5;
+    position: absolute;
+    margin-top: 75px;
+    width: 200px;
+    text-align: center;
+
+}
+
+.img-cont-4 {
+    background-image: url("../images/headphone.jpg");
+    height: 200px;
+    width: 200px;
+    float: left;
+  
+
+}
+
+#info {
+    color: white;
+    background-color: #4aaaa5;
+    position: absolute;
+    margin-top: 75px;
+    width: 200px;
+    text-align: center;
+
+}
+
+.img-cont-5 {
+    background-image: url("../images/face.jpg");
+    height: 200px;
+    width: 200px;
+    float: left;
+
+}
+
+#rock {
+    color: white;
+    background-color: #4aaaa5;
+    position: absolute;
+    margin-top: 75px;
+    width: 200px;
+    text-align: center;
+
+}
+
  
  /* <! sticky footer> */
 
